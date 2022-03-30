@@ -1,34 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Deploy with Vercel](https://vercel.com/button)](<https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fimage-gallery-supabase-tailwind-nextjs&env=NEXT_PUBLIC_SUPABASE_URL,SUPABASE_SERVICE_ROLE_KEY,REVALIDATE_SECRET&demo-title=Swag%20Showcase&demo-description=Image%20gallery%20with%20Supabase%20(Postgres)%2C%20Tailwind%20CSS%2C%20Next.js%2C%20and%20Vercel.&demo-url=https%3A%2F%2Fswag.vercel.app%2F&demo-image=https%3A%2F%2Fuser-images.githubusercontent.com%2F9113740%2F160301066-c2e44eec-a0aa-4960-8644-3fc95bf8cb34.png>)
 
-## Getting Started
+# Image Gallery with Next.js, Supabase, and Tailwind CSS
 
-First, run the development server:
+Learn how to create an image gallery with dynamic content from a PostgreSQL database, with support for content updates without neding to redeploy.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Read the tutorial: https://leerob.io/blog/image-gallery-supabase-tailwind-nextjs
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1406" alt="swag" src="https://user-images.githubusercontent.com/9113740/160301066-c2e44eec-a0aa-4960-8644-3fc95bf8cb34.png">
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Built With
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Supabase](https://supabase.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Next.js](https://nextjs.org)
+- [Vercel](https://vercel.com)
