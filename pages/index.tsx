@@ -12,6 +12,7 @@ export async function getStaticProps() {
     .then(res => res.data)
   
   // console.log(ig_data)
+
   return {
     props: {
       images: ig_data
@@ -47,13 +48,15 @@ function BlurImage({ image }: { image: Image }) {
   const [isLoading, setLoading] = useState(true)
   const date = new Date(image.timestamp)
   const title = image.caption.split('\n')[0]
+  const encoded_url = encodeURIComponent(image.media_url)
+  const image_url = 'https://res.cloudinary.com/demo/image/fetch/' + encoded_url
 
   return (
     <a href={image.permalink} className="group">
       <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
         <Image
           alt=""
-          src={image.media_url}
+          src={image_url}
           layout="fill"
           objectFit="cover"
           className={hpf(
